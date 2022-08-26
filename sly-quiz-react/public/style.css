@@ -4,7 +4,7 @@
     cursor: pointer;
     padding: 10px;
     margin: 5px;
-    width: 30%;
+    width: fit-content;
     border: none;
     text-align: left;
     outline: none;
@@ -23,7 +23,9 @@
 }
 
 .about {
-    width:fit-content;
+    width:33%;
+    display:flex;
+    flex-flow:column;
 }
 
 img {
