@@ -1,35 +1,118 @@
+body{
+    background-color:#3c4164;
+}
+
+h1{
+    color:goldenrod;
+    font-family: tahoma;
+    
+}
 .collapsible {
-    background-color: #eee;
-    color: #444;
+    background-color: #2f3245;
+    color: white;
     cursor: pointer;
     padding: 10px;
     margin: 5px;
     width: fit-content;
     border: none;
+    border-radius: 16px;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .active, .collapsible:hover {
-    background-color: #ccc;
+    background-color: rgb(130, 128, 128);
+    border-radius: 16px;
 }
 
 .content {
     padding: 0 18px;
     display: block;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #2f3245;
+    color: white;
 }
 
 .about {
-    width:33%;
+    width:100%;
     display:flex;
     flex-flow:column;
 }
 
 img {
+    float:left;
     height:200px;
     width:150px;
 
 }
+
+.toptitle{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    align-items: center;
+}
+.logo{
+    height:500px;
+    width:700px;
+}
+.slytitle{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 75px;
+}
+/* trying to add a metalic effect */
+h1{
+    /*color:white;*/
+    -webkit-text-stroke: 2px #715c24;
+    text-stroke: 1px #715c24;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size:4em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background:linear-gradient(#b08d2e,#f4e7bf,#7e6622);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+
+  .quiz{
+    width:33%;
+    background-color: #2f3245;
+    color: white;
+    border-radius:16px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    justify-content:center;
+    width: 90%;
+    background-color:#2f3245;
+    list-style: none;
+    border-radius:16px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  li {
+    width: 80%;
+    display:flex;
+    justify-content:center;
+    background-color:#3c4164;
+    outline-style:groove;
+    outline-color: #f4e7bf;
+    list-style: none;
+    border-radius:16px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
