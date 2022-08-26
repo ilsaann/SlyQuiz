@@ -37,9 +37,11 @@ app.get("/questions", (req, res) => {
 //lets get the answers by questionid
 app.get("/answer/id", (req, res) => {
   const Qid = req.id;
-  pool.query("SELECT * FROM answers WHERE questionid=${Qid}").then((result) => {
-    const answers = JSON.stringify(result.rows);
-    console.log(answers);
-    res.send(answers);
-  });
+  pool
+    .query("SELECT * FROM answers WHERE questionid=$1", [Qid])
+    .then((result) => {
+      const answers = JSON.stringify(result.rows);
+      console.log(answers);
+      res.send(answers);
+    });
 });
