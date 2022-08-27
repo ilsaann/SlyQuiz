@@ -2,6 +2,13 @@ body{
     background-color:#3c4164;
 }
 
+button {
+    background-color: #3c4164;
+    color:white;
+    border-radius: 16px;
+    border-style:groove;
+    border-color:#f4e7bf;
+}
 h1{
     color:goldenrod;
     font-family: tahoma;
