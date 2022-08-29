@@ -9,6 +9,12 @@ button {
     border-style:groove;
     border-color:#f4e7bf;
 }
+
+.play {
+    height:fit-content;
+    width:fit-content;
+    align-self: baseline;
+}
 h1{
     color:goldenrod;
     font-family: tahoma;
@@ -90,13 +96,14 @@ h1{
   }
 
   .quiz{
-    width:33%;
+    width:60%;
     background-color: #2f3245;
     color: white;
     border-radius:16px;
     padding: 10px;
     margin: 10px;
     display: flex;
+    align-items: center;
     justify-content: center;
   }
 
