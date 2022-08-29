@@ -50,7 +50,7 @@ INSERT INTO answers(answer, answercode, questionid) VALUES ('Very comfortable','
 -- QUESTION 6
 INSERT INTO answers(answer, answercode, questionid) VALUES ('TRUE','B','6');
 INSERT INTO answers(answer, answercode, questionid) VALUES ('Sometimes','S','6');
-INSERT INTO answers(answer, answercode, questionid) VALUES ('Nah, I prefer doing things in the real wold','M','6');
+INSERT INTO answers(answer, answercode, questionid) VALUES ('Nah, I prefer doing things in the real world','M','6');
 
 -- QUESTION 7
 INSERT INTO answers(answer, answercode, questionid) VALUES ('Mostly, you may need to explain it once or twice','S','7');

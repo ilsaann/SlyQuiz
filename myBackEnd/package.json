@@ -1,0 +1,1 @@
+{"type":"module","Access-Control-Allow-Origin":"*","dependencies":{"cors":"^2.8.5","dotenv":"^16.0.1","express":"^4.18.1","pg":"^8.8.0"}}
